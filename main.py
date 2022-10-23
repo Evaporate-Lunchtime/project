@@ -29,7 +29,7 @@ def main():
         number = randint(0, 99)
         
         guessesLeft = 10
-        print(number)
+        # print(number) For testing
         for i in range(guessesLeft):
             
             guess = ""
